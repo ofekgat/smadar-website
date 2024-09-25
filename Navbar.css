@@ -1,0 +1,87 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Aligns the navbar to the right */
+    align-items: center;
+    padding: 20px 40px;
+    background: transperent;
+    font-family: 'Varela Round', sans-serif;
+    position: fixed; /* Keeps the navbar relative to the rest of the page */
+    top: 0; /* Aligns to the top */
+    right: 0; /* Aligns the navbar to the right edge */
+    width: auto; /* Adjusts width as needed */
+    z-index: 100; /* Ensures it stays on top of other elements */
+
+  }
+  
+  /* Logo Section */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 30px; /* Adjust based on the logo's size */
+    margin-right: 50px;
+    margin-left: 20px;
+  }
+  
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: 40px;
+  }
+  
+  .logo-text span {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .logo-text p {
+    font-size: 0.7rem;
+    color: #888;
+
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links li a:hover {
+    color: #888; /* Hover effect */
+  }
+  
+  /* Contact Button */
+  .contact-button {
+    padding: 10px 20px;
+    background-color: #d8c7e7;
+    color: #5e3e83;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Adds space between the Contact button and the next element */
+  }
+  
+  .contact-button:hover {
+    background-color: #c5add5; /* Hover effect for button */
+  }

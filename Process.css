@@ -1,0 +1,31 @@
+/* Process Section Styles */
+.process-section {
+    padding: 60px 20px;
+    text-align: right;
+    margin-right: 200px;
+    background-color: transparent;
+  }
+  
+  .process-title {
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .process-content {
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .process-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .process-content strong {
+    font-weight: bold;
+    color: #333;
+  }

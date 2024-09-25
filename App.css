@@ -1,0 +1,88 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply a vertical gradient background to the body */
+body {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure body takes at least 100% of viewport height */
+  background: linear-gradient(180deg, #FCF5FF, #FFFFFF); /* Vertical gradient from top to bottom */
+}
+
+/* Ensure the page content is visible */
+#root {
+  min-height: 100vh; /* Ensures root element takes full height */
+}
+
+
+#root {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Example of styling other components */
+.navbar {
+  background-color: transparent; /* Make the navbar transparent if you want to see the gradient through it */
+}
+.scrollable-content {
+  margin-top: 80px; /* Push content below the fixed navbar */
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: calc(100vh - 160px); /* Full height minus navbar and footer */
+}
+.scrollable-content::-webkit-scrollbar {
+  background: transparent;
+}
+
+section {
+  padding: 20px;
+  color: #333;
+}
